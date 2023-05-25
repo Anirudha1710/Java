@@ -13,9 +13,8 @@ public class Roots_of_Quadratic {
         b = sc.nextInt();
         System.out.println("Enter c: ");
         c = sc.nextInt();
-        double sqrt = Math.sqrt(b * b - 4 * a * c);
-        r1 = (-b+ sqrt)/(2*a);
-        r2 = (-b- sqrt)/(2*a);
+        r1 = (-b+ Math.sqrt(b*b-4*a*c))/(2*a);
+        r2 = (-b- Math.sqrt(b*b-4*a*c))/(2*a);
         System.out.println("Roots are: "+r1+","+r2);
     }
 }
