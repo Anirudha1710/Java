@@ -3,7 +3,7 @@ package Conditional_Statement;
 import java.util.Scanner;
 
 public class printing_grade {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         Scanner sc = new Scanner(System.in);
         float m1,m2,m3,avg;
         System.out.println("Enter the marks of subject 1: ");
