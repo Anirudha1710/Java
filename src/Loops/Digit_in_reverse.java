@@ -7,11 +7,11 @@ public class Digit_in_reverse {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
-        int r;
+        int a;
         while(n>0){
-            r=n%10;
+            a=n%10;
             n=n%10;
-            System.out.println(r);
+            System.out.println(a);
         }
         sc.close();
     }
