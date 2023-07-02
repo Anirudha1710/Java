@@ -1,5 +1,11 @@
 package Nested_loops;
-
+/*
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+ */
 public class Pattern01 {
     public static void main(String[] args) {
         for (int i=1;i<=5;i++){
